@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5335B5F31E14B74400531487 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5335B5F11E14B74400531487 /* button.png */; };
+		5335B5F41E14B74400531487 /* FeedMe.png in Resources */ = {isa = PBXBuildFile; fileRef = 5335B5F21E14B74400531487 /* FeedMe.png */; };
+		5335B5F61E14BB8C00531487 /* FeedMeAppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5335B5F51E14BB8C00531487 /* FeedMeAppLogo.png */; };
+		5335B5F81E14BD4A00531487 /* FeedmeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5335B5F71E14BD4A00531487 /* FeedmeViewController.swift */; };
+		5358DB291E14AFA200011DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DB281E14AFA200011DCB /* AppDelegate.swift */; };
+		5358DB2B1E14AFA200011DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DB2A1E14AFA200011DCB /* ViewController.swift */; };
+		5358DB2E1E14AFA200011DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358DB2C1E14AFA200011DCB /* Main.storyboard */; };
+		5358DB301E14AFA200011DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5358DB2F1E14AFA200011DCB /* Assets.xcassets */; };
+		5358DB331E14AFA200011DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5358DB311E14AFA200011DCB /* LaunchScreen.storyboard */; };
+		5358DB3D1E14AFD600011DCB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5358DB3C1E14AFD600011DCB /* SWRevealViewController.m */; };
+		5358DB411E14B2D200011DCB /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DB401E14B2D200011DCB /* MenuCell.swift */; };
+		5358DB431E14B31200011DCB /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5358DB421E14B31200011DCB /* menuViewController.swift */; };
+		53D646A01E153F73002EE0F7 /* IntroFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D6469F1E153F73002EE0F7 /* IntroFoodViewController.swift */; };
+		53D646A21E1546A0002EE0F7 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D646A11E1546A0002EE0F7 /* CartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5335B5F11E14B74400531487 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		5335B5F21E14B74400531487 /* FeedMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedMe.png; sourceTree = "<group>"; };
+		5335B5F51E14BB8C00531487 /* FeedMeAppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedMeAppLogo.png; sourceTree = "<group>"; };
+		5335B5F71E14BD4A00531487 /* FeedmeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedmeViewController.swift; sourceTree = "<group>"; };
+		5358DB251E14AFA200011DCB /* FeedMe Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedMe Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5358DB281E14AFA200011DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5358DB2A1E14AFA200011DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5358DB2D1E14AFA200011DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5358DB2F1E14AFA200011DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5358DB321E14AFA200011DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5358DB341E14AFA200011DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5358DB3A1E14AFD600011DCB /* FeedMe Mobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeedMe Mobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		5358DB3B1E14AFD600011DCB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5358DB3C1E14AFD600011DCB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5358DB401E14B2D200011DCB /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		5358DB421E14B31200011DCB /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		53D6469F1E153F73002EE0F7 /* IntroFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroFoodViewController.swift; sourceTree = "<group>"; };
+		53D646A11E1546A0002EE0F7 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5358DB221E14AFA200011DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5335B5F01E14B6E100531487 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5335B5F51E14BB8C00531487 /* FeedMeAppLogo.png */,
+				5335B5F11E14B74400531487 /* button.png */,
+				5335B5F21E14B74400531487 /* FeedMe.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		5358DB1C1E14AFA100011DCB = {
+			isa = PBXGroup;
+			children = (
+				5358DB271E14AFA200011DCB /* FeedMe Mobile */,
+				5358DB261E14AFA200011DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5358DB261E14AFA200011DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5358DB251E14AFA200011DCB /* FeedMe Mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5358DB271E14AFA200011DCB /* FeedMe Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				5335B5F01E14B6E100531487 /* Image */,
+				5358DB3B1E14AFD600011DCB /* SWRevealViewController.h */,
+				5358DB3C1E14AFD600011DCB /* SWRevealViewController.m */,
+				5358DB281E14AFA200011DCB /* AppDelegate.swift */,
+				5358DB2A1E14AFA200011DCB /* ViewController.swift */,
+				5358DB2C1E14AFA200011DCB /* Main.storyboard */,
+				5358DB2F1E14AFA200011DCB /* Assets.xcassets */,
+				5358DB311E14AFA200011DCB /* LaunchScreen.storyboard */,
+				5358DB341E14AFA200011DCB /* Info.plist */,
+				5358DB3A1E14AFD600011DCB /* FeedMe Mobile-Bridging-Header.h */,
+				5358DB401E14B2D200011DCB /* MenuCell.swift */,
+				5358DB421E14B31200011DCB /* menuViewController.swift */,
+				5335B5F71E14BD4A00531487 /* FeedmeViewController.swift */,
+				53D6469F1E153F73002EE0F7 /* IntroFoodViewController.swift */,
+				53D646A11E1546A0002EE0F7 /* CartViewController.swift */,
+			);
+			path = "FeedMe Mobile";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5358DB241E14AFA200011DCB /* FeedMe Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5358DB371E14AFA200011DCB /* Build configuration list for PBXNativeTarget "FeedMe Mobile" */;
+			buildPhases = (
+				5358DB211E14AFA200011DCB /* Sources */,
+				5358DB221E14AFA200011DCB /* Frameworks */,
+				5358DB231E14AFA200011DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FeedMe Mobile";
+			productName = "FeedMe Mobile";
+			productReference = 5358DB251E14AFA200011DCB /* FeedMe Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5358DB1D1E14AFA100011DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ha Viet Duc";
+				TargetAttributes = {
+					5358DB241E14AFA200011DCB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LF26QRRFLW;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5358DB201E14AFA100011DCB /* Build configuration list for PBXProject "FeedMe Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5358DB1C1E14AFA100011DCB;
+			productRefGroup = 5358DB261E14AFA200011DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5358DB241E14AFA200011DCB /* FeedMe Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5358DB231E14AFA200011DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358DB331E14AFA200011DCB /* LaunchScreen.storyboard in Resources */,
+				5335B5F41E14B74400531487 /* FeedMe.png in Resources */,
+				5335B5F31E14B74400531487 /* button.png in Resources */,
+				5358DB301E14AFA200011DCB /* Assets.xcassets in Resources */,
+				5335B5F61E14BB8C00531487 /* FeedMeAppLogo.png in Resources */,
+				5358DB2E1E14AFA200011DCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5358DB211E14AFA200011DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5358DB2B1E14AFA200011DCB /* ViewController.swift in Sources */,
+				5358DB291E14AFA200011DCB /* AppDelegate.swift in Sources */,
+				5335B5F81E14BD4A00531487 /* FeedmeViewController.swift in Sources */,
+				5358DB411E14B2D200011DCB /* MenuCell.swift in Sources */,
+				53D646A21E1546A0002EE0F7 /* CartViewController.swift in Sources */,
+				5358DB3D1E14AFD600011DCB /* SWRevealViewController.m in Sources */,
+				5358DB431E14B31200011DCB /* menuViewController.swift in Sources */,
+				53D646A01E153F73002EE0F7 /* IntroFoodViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5358DB2C1E14AFA200011DCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358DB2D1E14AFA200011DCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5358DB311E14AFA200011DCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5358DB321E14AFA200011DCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5358DB351E14AFA200011DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5358DB361E14AFA200011DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5358DB381E14AFA200011DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LF26QRRFLW;
+				INFOPLIST_FILE = "FeedMe Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duchaviet.FeedMe-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeedMe Mobile/FeedMe Mobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5358DB391E14AFA200011DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LF26QRRFLW;
+				INFOPLIST_FILE = "FeedMe Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duchaviet.FeedMe-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FeedMe Mobile/FeedMe Mobile-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5358DB201E14AFA100011DCB /* Build configuration list for PBXProject "FeedMe Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358DB351E14AFA200011DCB /* Debug */,
+				5358DB361E14AFA200011DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5358DB371E14AFA200011DCB /* Build configuration list for PBXNativeTarget "FeedMe Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5358DB381E14AFA200011DCB /* Debug */,
+				5358DB391E14AFA200011DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5358DB1D1E14AFA100011DCB /* Project object */;
+}

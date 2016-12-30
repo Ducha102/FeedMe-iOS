@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Reveal View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SWRevealViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="yo2-ez-XE6" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="JlS-gL-QLI"/>
+                        <segue destination="TtC-Tp-zyd" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="NWp-Vf-gwc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-433" y="55"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iqP-cu-nAW">
+            <objects>
+                <navigationController id="yo2-ez-XE6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dDo-JB-LRI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OoY-Rd-8Mh" kind="relationship" relationship="rootViewController" id="HX2-c2-hPz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tpz-IU-cVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="45"/>
+        </scene>
+        <!--Hướng Dẫn-->
+        <scene sceneID="3J1-c7-2F8">
+            <objects>
+                <viewController storyboardIdentifier="FeedmeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XiR-f4-c6P" customClass="FeedmeViewController" customModule="FeedMe_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MNj-wZ-8on"/>
+                        <viewControllerLayoutGuide type="bottom" id="2c9-F1-xVS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="53B-uj-dlU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aYH-xr-kmu">
+                                <rect key="frame" x="0.0" y="49" width="375" height="589"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7479201352" green="0.59340818510000004" blue="0.011007945660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hướng Dẫn" id="w0B-Qj-GFd">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="Tp2-Zv-ElB">
+                            <color key="tintColor" red="0.7479201352" green="0.59340818510000004" blue="0.011007945660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cartStoreView" destination="aYH-xr-kmu" id="4mk-L1-bKU"/>
+                        <outlet property="menu" destination="Tp2-Zv-ElB" id="8jL-8t-0SH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LE9-TM-WV9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="753"/>
+        </scene>
+        <!--Giới Thiệu-->
+        <scene sceneID="eFy-uY-eK7">
+            <objects>
+                <viewController storyboardIdentifier="IntroFoodViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Lek-b9-s0I" customClass="IntroFoodViewController" customModule="FeedMe_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ji2-pO-eSM"/>
+                        <viewControllerLayoutGuide type="bottom" id="fqe-8K-2ZT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Idf-We-zDo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WJa-bf-Olz">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7479201352" green="0.59340818510000004" blue="0.011007945660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Giới Thiệu" id="A9a-GY-n3u">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="qE0-k9-9EP">
+                            <color key="tintColor" red="0.7479201352" green="0.59340818510000004" blue="0.011007945660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="IntroducView" destination="WJa-bf-Olz" id="6w3-00-aoI"/>
+                        <outlet property="menu" destination="qE0-k9-9EP" id="z6P-TU-MQ7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZL-qm-aII" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="753"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="4iv-Af-pWa">
+            <objects>
+                <viewController storyboardIdentifier="menuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TtC-Tp-zyd" customClass="menuViewController" customModule="FeedMe_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Cm-Oj-8pp"/>
+                        <viewControllerLayoutGuide type="bottom" id="NR0-av-PTQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Td6-h5-fcb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aww-S5-B7G">
+                                <rect key="frame" x="0.0" y="76" width="375" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuCell" id="vAy-Iu-nHp" customClass="MenuCell" customModule="FeedMe_Mobile" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vAy-Iu-nHp" id="5be-oW-nqn">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wm0-bF-BzQ">
+                                                    <rect key="frame" x="8" y="0.0" width="45" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0k-iU-eSK">
+                                                    <rect key="frame" x="74" y="12" width="216" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.79963331037499996" green="0.58039215690000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="menuImage" destination="Wm0-bF-BzQ" id="Ql1-IA-g0K"/>
+                                            <outlet property="menuLabel" destination="Z0k-iU-eSK" id="ytf-TU-PAu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="TtC-Tp-zyd" id="DkK-0X-hzV"/>
+                                    <outlet property="delegate" destination="TtC-Tp-zyd" id="C3T-ov-PFH"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FeedMe.png" translatesAutoresizingMaskIntoConstraints="NO" id="gyq-YK-lRU">
+                                <rect key="frame" x="0.0" y="20" width="223" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76862745099999996" green="0.58039215690000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="gyq-YK-lRU" id="4W6-D4-M5n"/>
+                        <outlet property="tableView" destination="aww-S5-B7G" id="509-BX-7aw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIi-UL-bjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-434.39999999999998" y="753.37331334332839"/>
+        </scene>
+        <!--FeedMe-->
+        <scene sceneID="ERM-Te-j32">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OoY-Rd-8Mh" customClass="ViewController" customModule="FeedMe_Mobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2VW-Ig-6we"/>
+                        <viewControllerLayoutGuide type="bottom" id="AVF-1b-foq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X70-b8-juH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zg6-3H-Yop">
+                                <rect key="frame" x="0.0" y="9" width="375" height="638"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.747920135226396" green="0.59340818507724735" blue="0.011007945661965004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.7479201352" green="0.59340818510000004" blue="0.011007945660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76862745099999996" green="0.58039215690000001" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="FeedMe" id="3Fp-32-5Zw">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="NSJ-0N-9YV">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnMenuButton" destination="NSJ-0N-9YV" id="AKm-Zb-eMM"/>
+                        <outlet property="webView" destination="zg6-3H-Yop" id="3Zd-Zz-hkJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtH-z7-vYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="45"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FeedMe.png" width="171" height="74"/>
+    </resources>
+</document>

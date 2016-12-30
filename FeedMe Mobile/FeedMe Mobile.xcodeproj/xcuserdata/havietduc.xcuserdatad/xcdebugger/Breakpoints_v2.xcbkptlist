@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FeedMe Mobile/IntroFoodViewController.swift"
+            timestampString = "504709007.294142"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "IntroFoodViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeedMe_Mobile.IntroFoodViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FeedMe_Mobile.IntroFoodViewController"
+                  moduleName = "FeedMe Mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/havietduc/Documents/MobileCourses/FeedMe-iOSApp/FeedMe%20Mobile/FeedMe%20Mobile/IntroFoodViewController.swift"
+                  timestampString = "504709394.103487"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeedMe_Mobile.IntroFoodViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FeedMe_Mobile.IntroFoodViewController"
+                  moduleName = "FeedMe Mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/havietduc/Documents/MobileCourses/FeedMe-iOSApp/FeedMe%20Mobile/FeedMe%20Mobile/IntroFoodViewController.swift"
+                  timestampString = "504709394.105867"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeedMe_Mobile.IntroFoodViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FeedMe_Mobile.IntroFoodViewController&gt;"
+                  moduleName = "FeedMe Mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/havietduc/Documents/MobileCourses/FeedMe-iOSApp/FeedMe%20Mobile/FeedMe%20Mobile/IntroFoodViewController.swift"
+                  timestampString = "504709394.109155"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FeedMe_Mobile.IntroFoodViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FeedMe_Mobile.IntroFoodViewController&gt;"
+                  moduleName = "FeedMe Mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/havietduc/Documents/MobileCourses/FeedMe-iOSApp/FeedMe%20Mobile/FeedMe%20Mobile/IntroFoodViewController.swift"
+                  timestampString = "504709394.112472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
